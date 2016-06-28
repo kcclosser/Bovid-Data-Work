@@ -1,0 +1,9 @@
+June 27th, 2016 - Bovid research NEW TASKS
+
+1. "Average of Averages" - have area, mean temperature, and elevation. Need to find overall average temperature and elevation for a series of 1 or more areas. Something like: (Polygon Area 1/total Polygon Area) * (MeanTemp1) + (Polygon Area 2/total Polygon Area) * (MeanTemp2) etc etc = Mean Temp for the entire range of the species
+
+2. Minimum and maximum - pick lowest values amongst the minimum columns for species minimum and highest among the maximum columns for species maximum. Do ops on columns as vectors, need to separate by species names somehow (or iterate).
+
+3. Standard Deviation - sum of variances for standard deviations: average the variances, take square root to find total standard deviation. So, for one species, square everything in the std dev column, add together, divide by the total number of areas, sum up, and take square root.
+
+Notes: ignore all columns except the Genus, Species, Shape_Area (blob size...for calculating averages), and all the ecological data columns
